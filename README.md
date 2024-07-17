@@ -6,6 +6,17 @@ Example of using Terraform to provision AWS infrastructure for a simple website:
 * Multiple EC2 instances
 * S3 storage
 
+## Configuration Files
+All Terraform configuration files are located in the `infrastructure` folder:
+* main.tf: Contains the provider configuration
+* variables.tf: Defines the input variables
+* outputs.tf: Defines the output variables
+* network.tf: Contains network-related resources like VPC, subnets, and route tables
+* instances.tf: Contains the EC2 instance configurations
+* load_balancer.tf: Configures the Elastic Load Balancer and target groups
+* s3.tf: Configures the S3 bucket and policies
+* dns.tf: Configures Route 53 DNS settings
+
 ## Setup
 * Navigate to the `infrastructure` directory
 ```

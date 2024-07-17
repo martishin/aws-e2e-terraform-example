@@ -1,4 +1,4 @@
-# AWS + Terraform end-to-end project
+# AWS + Terraform End-to-End Project
 Example of using Terraform to provision AWS infrastructure for a simple website:
 * Network configuration 
 * Route 53 DNS configuration

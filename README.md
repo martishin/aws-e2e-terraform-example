@@ -28,3 +28,7 @@ terraform init
 terraform apply
 ```
 * Once the process is finished, the address of the load balancer will be shown in the output under `load_balancer_dns`.
+* After you are done, de-provision the infrastructure:
+```
+terraform destroy
+```
